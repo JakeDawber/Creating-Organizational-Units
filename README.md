@@ -10,6 +10,9 @@ Organise the Active Directory environment to represent a company with multiple g
 
 Created separate OUs for Manchester, London and Birmingham to represent the company's different office locations. Within each location, I created additional OUs for Users, Computers and Servers to keep directory objects organised by type.
 
+<img src="Screenshots/Geographical OU.png"/>
+
+
 2. Created a dedicated Groups OU
 
 Created a separate OU to centralise departmental security groups, keeping group management separate from the geographical structure.
@@ -22,11 +25,17 @@ Finance, HR, IT, Management
 
 These groups provide a foundation for managing departmental permissions and assigning access to resources based on role.
 
+<img src="Screenshots/Security Goups.png"/>
+
+
 4. Created a user account and assigned group membership
 
 Created my own test user account and added it to the IT security group. I verified the membership through the user's Member Of tab in Active Directory Users and Computers.
 
 This demonstrates how user accounts can be associated with departmental groups rather than managing permissions individually for every user.
+
+<img src="Screenshots/User.png"/>
+
 
 <b>Skills Demonstrated</b>
 
@@ -46,6 +55,5 @@ Foundational role-based access control (RBAC) concepts
 
 Established a structured Active Directory directory hierarchy with geographical OUs, dedicated user/computer/server containers and centralised departmental security groups. This structure provides a foundation for the next stages of the lab, including employee onboarding, workstation domain joining and Group Policy configuration.
 
-<img src="Screenshots/Power on VM.png"/>
 
 
